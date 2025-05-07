@@ -5,13 +5,13 @@ module "foreach-management" {
 
   lambda_consumers = [
     {
-      name                    = "FIRST-IN-LOOP"
+      name = "FIRST-IN-LOOP"
     },
     {
-      name                    = "SECOND-IN-LOOP"
+      name = "SECOND-IN-LOOP"
     },
     {
-      name                    = "THIRD-IN-LOOP"
+      name = "THIRD-IN-LOOP"
     },
-   ]
+  ]
 }
